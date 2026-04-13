@@ -1,0 +1,10 @@
+name: ci-cd-generator-ai-mcp
+description: "MEOK AI Labs — ci-cd-generator-ai-mcp — Generate CI/CD pipeline configs."
+vendor: MEOK AI Labs
+homepage: https://meok.ai
+repository: https://github.com/CSOAI-ORG/ci-cd-generator-ai-mcp
+license: MIT
+categories: [DevOps, CI/CD]
+tags: [ci-cd, continuous-integration, deployment-pipeline, github-actions, devops]
+runtime: python
+entrypoint: server.py

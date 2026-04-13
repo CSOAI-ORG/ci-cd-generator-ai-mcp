@@ -1,0 +1,20 @@
+{
+  "name": "ci-cd-generator-ai-mcp",
+  "description": "MEOK AI Labs \u2014 ci-cd-generator-ai-mcp \u2014 Generate CI/CD pipeline configs.",
+  "vendor": "MEOK AI Labs",
+  "homepage": "https://meok.ai",
+  "repository": "https://github.com/CSOAI-ORG/ci-cd-generator-ai-mcp",
+  "runtime": "python",
+  "entrypoint": "server.py",
+  "tools": [
+    "run"
+  ],
+  "categories": [
+    "DevOps",
+    "CI/CD"
+  ],
+  "pricing": {
+    "free": "50 calls/day",
+    "pro": "$9/mo"
+  }
+}
