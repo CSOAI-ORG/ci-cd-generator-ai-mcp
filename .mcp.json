@@ -1,20 +1,73 @@
 {
   "name": "ci-cd-generator-ai-mcp",
-  "description": "MEOK AI Labs \u2014 ci-cd-generator-ai-mcp \u2014 Generate CI/CD pipeline configs.",
-  "vendor": "MEOK AI Labs",
-  "homepage": "https://meok.ai",
-  "repository": "https://github.com/CSOAI-ORG/ci-cd-generator-ai-mcp",
-  "runtime": "python",
-  "entrypoint": "server.py",
+  "description": "ci-cd-generator-ai-mcp \u2014 Generate CI/CD pipeline configs.",
+  "version": "1.0.0",
   "tools": [
-    "run"
-  ],
-  "categories": [
-    "DevOps",
-    "CI/CD"
-  ],
-  "pricing": {
-    "free": "50 calls/day",
-    "pro": "$9/mo"
-  }
+    {
+      "name": "generate_github_actions",
+      "description": "MEOK AI Labs tool.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "language": {
+            "type": "string"
+          },
+          "test_command": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "language"
+        ]
+      }
+    },
+    {
+      "name": "generate_gitlab_ci",
+      "description": "MEOK AI Labs tool.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "language": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "language"
+        ]
+      }
+    },
+    {
+      "name": "generate_jenkinsfile",
+      "description": "MEOK AI Labs tool.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "language": {
+            "type": "string"
+          },
+          "stages": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "language"
+        ]
+      }
+    },
+    {
+      "name": "lint_workflow",
+      "description": "MEOK AI Labs tool.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "workflow_yaml": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "workflow_yaml"
+        ]
+      }
+    }
+  ]
 }
