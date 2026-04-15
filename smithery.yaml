@@ -1,5 +1,5 @@
 name: ci-cd-generator-ai-mcp
-description: "ci-cd-generator-ai-mcp \u2014 Generate CI/CD pipeline configs."
+description: "MEOK AI Labs \u2014 Generate CI/CD pipeline configurations."
 version: 1.0.0
 tools:
 - name: generate_github_actions
