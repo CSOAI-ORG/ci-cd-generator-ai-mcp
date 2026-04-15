@@ -1,5 +1,6 @@
 name: ci-cd-generator-ai-mcp
-description: "MEOK AI Labs \u2014 Generate CI/CD pipeline configurations."
+description: MCP server for ci cd generator ai. Features generate github actions,
+  generate gitlab ci, generate jenkinsfile. From MEOK AI Labs.
 version: 1.0.0
 tools:
 - name: generate_github_actions
