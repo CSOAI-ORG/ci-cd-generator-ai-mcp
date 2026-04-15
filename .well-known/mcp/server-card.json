@@ -1,0 +1,54 @@
+{
+  "name": "ci-cd-generator-ai",
+  "description": "Generate CI/CD pipeline configurations for GitHub Actions, GitLab CI, and Jenkins. By MEOK AI Labs.",
+  "version": "1.0.0",
+  "protocol_version": "2025-11-25",
+  "publisher": {
+    "name": "MEOK AI Labs",
+    "url": "https://meok.ai",
+    "email": "nicholas@meok.ai"
+  },
+  "repository": "https://github.com/CSOAI-ORG/ci-cd-generator-ai-mcp",
+  "license": "MIT",
+  "transport": [
+    "stdio",
+    "streamable-http"
+  ],
+  "authentication": {
+    "type": "api-key",
+    "free_tier": true,
+    "free_limit": "15 calls/day"
+  },
+  "tools": [
+    {
+      "name": "generate_pipeline",
+      "description": "Generate a CI/CD pipeline configuration for the specified language and platform (github, gitlab)."
+    },
+    {
+      "name": "validate_config",
+      "description": "Validate a CI/CD configuration for common errors and best practices."
+    },
+    {
+      "name": "list_templates",
+      "description": "List available CI/CD pipeline templates and supported languages."
+    },
+    {
+      "name": "optimize_stages",
+      "description": "Suggest optimizations for a CI/CD pipeline: caching, parallelism, matrix builds."
+    }
+  ],
+  "categories": [
+    "AI & Machine Learning",
+    "Data & Analytics",
+    "DevOps & Infrastructure"
+  ],
+  "pricing": {
+    "free": {
+      "calls_per_day": 15
+    },
+    "pro": {
+      "price": "$29/month",
+      "url": "https://meok.ai/pricing"
+    }
+  }
+}
