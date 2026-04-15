@@ -22,3 +22,6 @@ Repository = "https://github.com/CSOAI-ORG/ci-cd-generator-ai-mcp"
 [tool.hatch.build.targets.wheel]
 packages = ["."]
 only-include = ["server.py"]
+
+[project.scripts]
+ci_cd_generator_ai_mcp = "server:main"
