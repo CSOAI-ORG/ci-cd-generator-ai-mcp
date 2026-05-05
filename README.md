@@ -1,51 +1,38 @@
-# CI/CD Generator AI MCP Server
+<div align="center">
 
-> By [MEOK AI Labs](https://meok.ai) — Generate CI/CD pipeline configurations for GitHub Actions, GitLab CI, and Jenkins
+[![GitHub stars](https://img.shields.io/github/stars/CSOAI-ORG/ci-cd-generator-ai-mcp)](https://github.com/CSOAI-ORG/ci-cd-generator-ai-mcp/stargazers)
+
+# uciU cdU generatorU aiU mcp
+
+****
+
+[![npm version](https://img.shields.io/npm/v/@meok-ai/ci-cd-generator-ai-mcp)](https://www.npmjs.com/package/@meok-ai/ci-cd-generator-ai-mcp)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![MEOK AI Labs](https://img.shields.io/badge/MEOK_AI_Labs-255+_servers-purple)](https://meok.ai)
+
+[Installation](#installation) · [Docs](https://csoai.org) · [Report Bug](https://github.com/CSOAI-ORG/ci-cd-generator-ai-mcp/issues)
+
+</div>
+
+---
 
 ## Installation
 
 ```bash
 pip install ci-cd-generator-ai-mcp
+# or
+npm install -g @meok-ai/ci-cd-generator-ai-mcp
 ```
 
-## Usage
+## Quick Start
 
-```bash
-python server.py
-```
+See the project repository for full documentation and examples.
 
-## Tools
+## Enterprise Support
 
-### `generate_github_actions`
-Generate a GitHub Actions workflow for a given language and test command.
-
-**Parameters:**
-- `language` (str): Programming language
-- `test_command` (str): Test command to run
-
-### `generate_gitlab_ci`
-Generate a GitLab CI configuration file.
-
-**Parameters:**
-- `language` (str): Programming language
-
-### `generate_jenkinsfile`
-Generate a Jenkinsfile with configurable stages.
-
-**Parameters:**
-- `language` (str): Programming language
-- `stages` (str): Comma-separated stages (default 'build,test,deploy')
-
-### `lint_workflow`
-Lint and validate a CI/CD workflow YAML file.
-
-**Parameters:**
-- `workflow_yaml` (str): Workflow YAML content
-
-## Authentication
-
-Free tier: 30 calls/day. Upgrade at [meok.ai/pricing](https://meok.ai/pricing) for unlimited access.
+- 📧 nicholas@csoai.org
+- 🌐 [CSOAI.org](https://csoai.org)
 
 ## License
 
-MIT — MEOK AI Labs
+MIT © [CSOAI](https://csoai.org)
