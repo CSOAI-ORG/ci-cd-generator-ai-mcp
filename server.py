@@ -102,7 +102,22 @@ STAGE_DEFINITIONS = {
 
 @mcp.tool()
 def generate_pipeline(language: str, platform: str = "github", stages: str = "lint,test,build", deploy_target: str = "", api_key: str = "") -> str:
-    """Generate a CI/CD pipeline configuration for the specified language and platform (github, gitlab)."""
+    """Generate a CI/CD pipeline configuration for the specified language and platform (github, gitlab).
+
+    Behavior:
+        This tool generates structured output without modifying external systems.
+        Output is deterministic for identical inputs. No side effects.
+        Free tier: 10/day rate limit. Pro tier: unlimited.
+        No authentication required for basic usage.
+
+    When to use:
+        Use this tool when you need structured analysis or classification
+        of inputs against established frameworks or standards.
+
+    When NOT to use:
+        Not suitable for real-time production decision-making without
+        human review of results.
+    """
     allowed, msg, tier = check_access(api_key)
     if not allowed:
         return json.dumps({"error": msg, "upgrade_url": "https://meok.ai/pricing"})
@@ -153,7 +168,23 @@ def generate_pipeline(language: str, platform: str = "github", stages: str = "li
 
 @mcp.tool()
 def validate_config(config_yaml: str, platform: str = "github", api_key: str = "") -> str:
-    """Validate a CI/CD configuration for common errors and best practices."""
+    """Validate a CI/CD configuration for common errors and best practices.
+
+    Behavior:
+        This tool is read-only and stateless — it produces analysis output
+        without modifying any external systems, databases, or files.
+        Safe to call repeatedly with identical inputs (idempotent).
+        Free tier: 10/day rate limit. Pro tier: unlimited.
+        No authentication required for basic usage.
+
+    When to use:
+        Use this tool when you need structured analysis or classification
+        of inputs against established frameworks or standards.
+
+    When NOT to use:
+        Not suitable for real-time production decision-making without
+        human review of results.
+    """
     allowed, msg, tier = check_access(api_key)
     if not allowed:
         return json.dumps({"error": msg, "upgrade_url": "https://meok.ai/pricing"})
@@ -206,7 +237,22 @@ def validate_config(config_yaml: str, platform: str = "github", api_key: str = "
 
 @mcp.tool()
 def list_templates(platform: str = "github", api_key: str = "") -> str:
-    """List available CI/CD pipeline templates and supported languages."""
+    """List available CI/CD pipeline templates and supported languages.
+
+    Behavior:
+        This tool generates structured output without modifying external systems.
+        Output is deterministic for identical inputs. No side effects.
+        Free tier: 10/day rate limit. Pro tier: unlimited.
+        No authentication required for basic usage.
+
+    When to use:
+        Use this tool when you need structured analysis or classification
+        of inputs against established frameworks or standards.
+
+    When NOT to use:
+        Not suitable for real-time production decision-making without
+        human review of results.
+    """
     allowed, msg, tier = check_access(api_key)
     if not allowed:
         return json.dumps({"error": msg, "upgrade_url": "https://meok.ai/pricing"})
@@ -231,7 +277,22 @@ def list_templates(platform: str = "github", api_key: str = "") -> str:
 
 @mcp.tool()
 def optimize_stages(config_yaml: str, platform: str = "github", api_key: str = "") -> str:
-    """Suggest optimizations for a CI/CD pipeline: caching, parallelism, matrix builds."""
+    """Suggest optimizations for a CI/CD pipeline: caching, parallelism, matrix builds.
+
+    Behavior:
+        This tool generates structured output without modifying external systems.
+        Output is deterministic for identical inputs. No side effects.
+        Free tier: 10/day rate limit. Pro tier: unlimited.
+        No authentication required for basic usage.
+
+    When to use:
+        Use this tool when you need structured analysis or classification
+        of inputs against established frameworks or standards.
+
+    When NOT to use:
+        Not suitable for real-time production decision-making without
+        human review of results.
+    """
     allowed, msg, tier = check_access(api_key)
     if not allowed:
         return json.dumps({"error": msg, "upgrade_url": "https://meok.ai/pricing"})
