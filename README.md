@@ -1,3 +1,5 @@
+[![ci-cd-generator-ai-mcp MCP server](https://glama.ai/mcp/servers/CSOAI-ORG/ci-cd-generator-ai-mcp/badges/card.svg)](https://glama.ai/mcp/servers/CSOAI-ORG/ci-cd-generator-ai-mcp)
+
 <div align="center">
 
 [![GitHub stars](https://img.shields.io/github/stars/CSOAI-ORG/ci-cd-generator-ai-mcp)](https://github.com/CSOAI-ORG/ci-cd-generator-ai-mcp/stargazers)
