@@ -117,6 +117,16 @@ def generate_pipeline(language: str, platform: str = "github", stages: str = "li
     When NOT to use:
         Not suitable for real-time production decision-making without
         human review of results.
+
+    Args:
+        language (str): The language to analyze or process.
+        platform (str): The platform to analyze or process.
+        stages (str): The stages to analyze or process.
+        test: The test to analyze or process.
+        build": The build" to analyze or process.
+        deploy_target (str): The deploy target to analyze or process.
+        api_key (str): The api key to analyze or process.
+
     Behavioral Transparency:
         - Side Effects: This tool is read-only and produces no side effects. It does not modify
           any external state, databases, or files. All output is computed in-memory and returned
@@ -198,6 +208,12 @@ def validate_config(config_yaml: str, platform: str = "github", api_key: str = "
     When NOT to use:
         Not suitable for real-time production decision-making without
         human review of results.
+
+    Args:
+        config_yaml (str): The config yaml to analyze or process.
+        platform (str): The platform to analyze or process.
+        api_key (str): The api key to analyze or process.
+
     Behavioral Transparency:
         - Side Effects: This tool is read-only and produces no side effects. It does not modify
           any external state, databases, or files. All output is computed in-memory and returned
@@ -280,6 +296,11 @@ def list_templates(platform: str = "github", api_key: str = "") -> str:
     When NOT to use:
         Not suitable for real-time production decision-making without
         human review of results.
+
+    Args:
+        platform (str): The platform to analyze or process.
+        api_key (str): The api key to analyze or process.
+
     Behavioral Transparency:
         - Side Effects: This tool is read-only and produces no side effects. It does not modify
           any external state, databases, or files. All output is computed in-memory and returned
@@ -334,6 +355,12 @@ def optimize_stages(config_yaml: str, platform: str = "github", api_key: str = "
     When NOT to use:
         Not suitable for real-time production decision-making without
         human review of results.
+
+    Args:
+        config_yaml (str): The config yaml to analyze or process.
+        platform (str): The platform to analyze or process.
+        api_key (str): The api key to analyze or process.
+
     Behavioral Transparency:
         - Side Effects: This tool is read-only and produces no side effects. It does not modify
           any external state, databases, or files. All output is computed in-memory and returned
