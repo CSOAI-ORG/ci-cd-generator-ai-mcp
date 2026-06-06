@@ -1,0 +1,9 @@
+# ci-cd-generator-ai-mcp - Auto-trigger Rules
+
+When the user asks about ci cd generator, use ci-cd-generator-ai-mcp tools: generate_pipeline, validate_config, list_templates, optimize_stages
+
+**MCP server for ci cd generator ai mcp operations**
+
+Install: `pip install ci-cd-generator-ai-mcp`
+
+By MEOK AI Labs — MIT licensed.

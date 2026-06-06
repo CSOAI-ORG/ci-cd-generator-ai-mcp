@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Generate CI/CD pipeline configurations for GitHub Actions, GitLab CI, and Jenkins. — MEOK AI Labs."""
+"""
+Generate CI/CD pipeline configurations for GitHub Actions, GitLab CI, and Jenkins. — MEOK AI Labs."""
 
 import sys, os
 from auth_middleware import check_access

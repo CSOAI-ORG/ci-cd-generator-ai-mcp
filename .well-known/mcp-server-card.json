@@ -1,0 +1,25 @@
+{
+  "name": "ci-cd-generator-ai-mcp",
+  "title": "Ci Cd Generator Ai Mcp",
+  "description": "MCP server for ci cd generator ai. Features generate github actions, generate gitlab ci, generate jenkinsfile. From MEOK AI Labs.",
+  "version": "1.0.7",
+  "homepage": "https://meok.ai",
+  "license": "MIT",
+  "transport": {
+    "type": "stdio"
+  },
+  "tools": [
+    {
+      "name": "generate_pipeline"
+    },
+    {
+      "name": "validate_config"
+    },
+    {
+      "name": "list_templates"
+    },
+    {
+      "name": "optimize_stages"
+    }
+  ]
+}
