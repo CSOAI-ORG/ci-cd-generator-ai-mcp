@@ -1,0 +1,22 @@
+{
+  "acpVersion": "0.1",
+  "agent": {
+    "name": "ci-cd-generator-ai-mcp",
+    "description": "Ci Cd Generator Ai MCP Server by MEOK AI Labs",
+    "version": "1.0.7",
+    "provider": "MEOK AI Labs",
+    "interfaces": [
+      {
+        "type": "mcp",
+        "transport": "stdio",
+        "package": "ci-cd-generator-ai-mcp"
+      }
+    ],
+    "capabilities": [
+      "generate_pipeline",
+      "validate_config",
+      "list_templates",
+      "optimize_stages"
+    ]
+  }
+}
