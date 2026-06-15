@@ -1,4 +1,4 @@
-<!-- mcp-name: CSOAI-ORG/ci-cd-generator-ai-mcp -->
+<!-- mcp-name: io.github.CSOAI-ORG/ci-cd-generator-ai-mcp -->
 [![MCP Scorecard: 86/100](https://img.shields.io/badge/proofof.ai-86%2F100-5b21b6)](https://proofof.ai/scorecard/ci-cd-generator-ai-mcp.html)
 
 # Ci Cd Generator Ai MCP
@@ -123,3 +123,8 @@ Once configured, ask your assistant, for example:
 - "Use `generate_pipeline` to …"
 - "Use `validate_config` to …"
 - "Use `list_templates` to …"
+
+## See also
+
+MEOK compliance MCP fleet:
+[`cli-builder-ai-mcp`](https://github.com/CSOAI-ORG/cli-builder-ai-mcp), [`linkedin-outreach-mcp`](https://github.com/CSOAI-ORG/linkedin-outreach-mcp), [`lorem-ipsum-ai-mcp`](https://github.com/CSOAI-ORG/lorem-ipsum-ai-mcp), [`otp-ai-mcp`](https://github.com/CSOAI-ORG/otp-ai-mcp), [`recruitment-ai-mcp`](https://github.com/CSOAI-ORG/recruitment-ai-mcp)
